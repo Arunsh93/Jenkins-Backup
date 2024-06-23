@@ -1,0 +1,23 @@
+Started by timer
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/C-Project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/C-Project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Arunsh93/C-Project.git # timeout=10
+Fetching upstream changes from https://github.com/Arunsh93/C-Project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/Arunsh93/C-Project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d7ccc855710f27534fe1ddeac217d5e31516555e (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d7ccc855710f27534fe1ddeac217d5e31516555e # timeout=10
+Commit message: "added c projects"
+ > git rev-list --no-walk d7ccc855710f27534fe1ddeac217d5e31516555e # timeout=10
+[C-Project] $ /bin/sh -xe /tmp/jenkins7020321743292466662.sh
++ cd /var/lib/jenkins/workspace/C-Project
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

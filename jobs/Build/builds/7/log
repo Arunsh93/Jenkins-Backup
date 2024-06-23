@@ -1,0 +1,6 @@
+Started by user [8mha:////4K1jgu3bwsZ6w+7XHybM/zNh+kXyxhj0DENE5RAHuCcAAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xKLSPAA5nnHJvwAAAA==[0mArun
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/Build
+[Build] $ /bin/sh -xe /tmp/jenkins4059682828528906449.sh
++ cd /var/lib/jenkins/workspace/GitJob
++ mvn compile

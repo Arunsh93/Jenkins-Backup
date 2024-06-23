@@ -1,0 +1,27 @@
+Started by user [8mha:////4K1jgu3bwsZ6w+7XHybM/zNh+kXyxhj0DENE5RAHuCcAAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xKLSPAA5nnHJvwAAAA==[0mArun
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/GitJob
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Arunsh93/Maven_Examples.git
+ > git init /var/lib/jenkins/workspace/GitJob # timeout=10
+Fetching upstream changes from https://github.com/Arunsh93/Maven_Examples.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/Arunsh93/Maven_Examples.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Arunsh93/Maven_Examples.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 8f740bdb7c2813d6148beb9bcba76890b6bd0f58 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8f740bdb7c2813d6148beb9bcba76890b6bd0f58 # timeout=10
+Commit message: "this iste"
+First time build. Skipping changelog.
+[GitJob] $ /bin/sh -xe /tmp/jenkins11389488576597754870.sh
++ ls
+Ant_example
+dependency_managment
+sample_java
+Finished: SUCCESS

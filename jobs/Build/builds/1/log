@@ -1,0 +1,8 @@
+Started by user [8mha:////4K1jgu3bwsZ6w+7XHybM/zNh+kXyxhj0DENE5RAHuCcAAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xKLSPAA5nnHJvwAAAA==[0mArun
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/Build
+[Build] $ /bin/sh -xe /tmp/jenkins618755645599950462.sh
++ echo 'Hello, Building the application....'
+Hello, Building the application....
+Triggering a new build of [8mha:////4DoCb8Mlk5RNnt0VxpQiN+M4WCpp7tRA4cz/uut6HephAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/az8JP2Q1OISfQCjfsn8vwAAAA==[0mTest
+Finished: SUCCESS

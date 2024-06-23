@@ -1,0 +1,23 @@
+Started by user [8mha:////4K1jgu3bwsZ6w+7XHybM/zNh+kXyxhj0DENE5RAHuCcAAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xKLSPAA5nnHJvwAAAA==[0mArun
+Running as SYSTEM
+Building remotely on [8mha:////4Jw45S7JqFGY+TGSs3BEaHdg2YIIPpDN7tKkIjbdPdsQAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUIwCCp2lrxQAAAA==[0mslave2 (label1) in workspace /home/ec2-user/workspace/C-Project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/workspace/C-Project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Arunsh93/C-Project.git # timeout=10
+Fetching upstream changes from https://github.com/Arunsh93/C-Project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/Arunsh93/C-Project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 82144663be0325e9e5482fc64ef5f3184274f9c8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 82144663be0325e9e5482fc64ef5f3184274f9c8 # timeout=10
+Commit message: "Update test1"
+ > git rev-list --no-walk 82144663be0325e9e5482fc64ef5f3184274f9c8 # timeout=10
+[C-Project] $ /bin/sh -xe /tmp/jenkins6415149016922418085.sh
++ cd /home/ec2-user/workspace/C-Project
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

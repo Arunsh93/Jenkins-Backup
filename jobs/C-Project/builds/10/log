@@ -1,0 +1,23 @@
+Started by GitHub push by Arunsh93
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/C-Project
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/C-Project/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Arunsh93/C-Project.git # timeout=10
+Fetching upstream changes from https://github.com/Arunsh93/C-Project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/Arunsh93/C-Project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 82144663be0325e9e5482fc64ef5f3184274f9c8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 82144663be0325e9e5482fc64ef5f3184274f9c8 # timeout=10
+Commit message: "Update test1"
+ > git rev-list --no-walk ffcfa1fe20f2be07d54de0bf389bb0e68c886b0c # timeout=10
+[C-Project] $ /bin/sh -xe /tmp/jenkins18020105817984842568.sh
++ cd /var/lib/jenkins/workspace/C-Project
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS

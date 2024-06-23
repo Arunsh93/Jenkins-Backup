@@ -1,0 +1,36 @@
+Started by user [8mha:////4K1jgu3bwsZ6w+7XHybM/zNh+kXyxhj0DENE5RAHuCcAAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyWEgYu/dLi1CL9xKLSPAA5nnHJvwAAAA==[0mArun
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/GitJob
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Arunsh93/addressbook.git
+ > git init /var/lib/jenkins/workspace/GitJob # timeout=10
+Fetching upstream changes from https://github.com/Arunsh93/addressbook.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/Arunsh93/addressbook.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Arunsh93/addressbook.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 72132509535b320b09338fb7a6054b4c7d4beb75 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 72132509535b320b09338fb7a6054b4c7d4beb75 # timeout=10
+Commit message: "Update README.md"
+First time build. Skipping changelog.
+[GitJob] $ /bin/sh -xe /tmp/jenkins1050904654166796063.sh
++ ls
+addressbook_screenshot.png
+build.properties
+build.xml
+deployment.yaml
+Dockerfile
+Jenkinsfile
+pom.xml
+README.md
+src
+Finished: SUCCESS
